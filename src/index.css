@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.form {
+  background-color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      margin: -200px 0 0 -200px;
+      padding: 20px;
+}
+.App{
+  height: 100vh;
+  background-color: rgb(163, 163, 163);
+}
+.form__back{
+  background-color: transparent;
+  border: none;
+}
+.form > hr {
+  margin: 20px -20px ;
+}
+.btn-primary{
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.label-input{
+  padding-bottom: 10px;
+}
+.form-group{
+  padding-bottom: 10px;
+}
